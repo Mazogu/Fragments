@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawWidth">240dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="smallMargin">20dp</dimen>
+</resources>

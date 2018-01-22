@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activities">
+        <item>@string/pdf</item>
+        <item>@string/messenger</item>
+        <item>@string/alert</item>
+        <item>@string/notification</item>
+        <item>@string/timer</item>
+    </string-array>
+</resources>

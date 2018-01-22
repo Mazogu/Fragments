@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FunWithFragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pdf">PDF Viewer</string>
+    <string name="messenger">Message</string>
+    <string name="alert">Alert Message</string>
+    <string name="notification">Notifier</string>
+    <string name="timer">Timer</string>
+    <string name="onOpen">It\'s Open</string>
+    <string name="onClose">It\'s Closed</string>
+    <string name="nav">Navigate</string>
+    <string name="channelName">The Doomsday Channel</string>
+    <string name="channelDescription">The description isn\'t really important</string>
+
+</resources>
