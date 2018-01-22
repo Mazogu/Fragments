@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.micha.funwithfragments.TimerButtonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_weight="1"
+            android:id="@+id/timerStart"
+            android:onClick="doTimer"/>
+        <Space
+            android:layout_width="@dimen/zero"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:id="@+id/timerStop"
+            android:onClick="doTimer"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</FrameLayout>

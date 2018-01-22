@@ -21,5 +21,8 @@ public class MessengerActivity extends AppCompatActivity {
 
     public void sendText(View view) {
         SmsManager manager = SmsManager.getDefault();
+        manager.sendTextMessage(phoneNo.getText().toString(),null,text.getText().toString(),
+                null,null);
+
     }
 }
