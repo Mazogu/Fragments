@@ -11,15 +11,18 @@ import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 
-public class NotificationActivity extends AppCompatActivity {
+public class NotificationActivity extends BaseActivity {
 
     private NotificationManager manager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_notification);
+        ViewGroup view = findViewById(R.id.content);
+        getLayoutInflater().inflate(R.layout.activity_notification, view);
+
         manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         String id = "channel_id5";
     }

@@ -15,6 +15,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.TimerTask;
+
 public class BaseActivity extends AppCompatActivity {
 
     protected ListView list;
@@ -42,7 +44,8 @@ public class BaseActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(select.equals(getResources().getString(R.string.messenger))){
-
+                    Intent intent = new Intent(getApplicationContext(), MessengerActivity.class);
+                    startActivity(intent);
                 }
                 else if(select.equals(getResources().getString(R.string.alert))){
                     Intent intent = new Intent(getApplicationContext(), AlertActivity.class);
@@ -53,7 +56,8 @@ public class BaseActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
                 else if(select.equals(getResources().getString(R.string.timer))){
-
+                    Intent intent = new Intent(getApplicationContext(), TimerActivity.class);
+                    startActivity(intent);
                 }
 
             }

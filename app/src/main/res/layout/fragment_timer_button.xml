@@ -13,8 +13,7 @@
             android:layout_height="wrap_content"
             android:text="Start"
             android:layout_weight="1"
-            android:id="@+id/timerStart"
-            android:onClick="doTimer"/>
+            android:id="@+id/timerStart"/>
         <Space
             android:layout_width="@dimen/zero"
             android:layout_height="match_parent"
@@ -24,7 +23,6 @@
             android:layout_height="wrap_content"
             android:text="Stop"
             android:id="@+id/timerStop"
-            android:onClick="doTimer"
             android:layout_weight="1"/>
     </LinearLayout>
 

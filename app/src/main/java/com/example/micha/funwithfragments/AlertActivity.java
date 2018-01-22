@@ -62,11 +62,13 @@ public class AlertActivity extends BaseActivity {
                     }
 
                     else if (options[i].equals(R.string.messenger)) {
-
+                        Intent intent = new Intent(getApplicationContext(), MessengerActivity.class);
+                        startActivity(intent);
                     }
 
                     else if (options[i].equals(R.string.timer)) {
-
+                        Intent intent = new Intent(getApplicationContext(), TimerActivity.class);
+                        startActivity(intent);
                     }
 
                     else if (options[i].equals(R.string.notification)) {

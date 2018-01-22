@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class TimerButtonFragment extends Fragment {
+public class TimerButtonFragment extends android.app.Fragment {
 
 
     public TimerButtonFragment() {
@@ -26,13 +26,4 @@ public class TimerButtonFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_timer_button, container, false);
     }
 
-    public  void doTimer(View view){
-        if (view.getId() == R.id.timerStart) {
-
-        }
-
-        else if (view.getId() == R.id.timerStop) {
-
-        }
-    }
 }
